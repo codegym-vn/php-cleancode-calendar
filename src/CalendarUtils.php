@@ -31,7 +31,7 @@ class CalendarUtils
                 }
                 return 28;
             default:
-                throw new RuntimeException("Invalid month");
+                throw new Exception("Invalid month");
         }
     }
 }
